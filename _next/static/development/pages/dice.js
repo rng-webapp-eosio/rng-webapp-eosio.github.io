@@ -96712,9 +96712,8 @@ var CONFIG = {
       pk10: 'rnglotpkten1',
       'pk-10': 'rnglotpkten1'
     },
-    gameStatus: 'https://gamestatus.rngcasino.io',
-    segmentApiKey: 'kwLsTv7mc5W7mFEEr3XsuPhzuuCjWzBE',
-    mixpanelToken: '67caf9d709cdf2d3ab6f555e4459e217'
+    gameStatus: 'https://gamestatus.rng.casino',
+    segmentApiKey: 'g9PC1LGDDrb3uHP79yBc2kTpnYKATUYS'
   },
   development: {
     app: {
@@ -96735,8 +96734,7 @@ var CONFIG = {
       'pk-10': 'rnglotpkten1'
     },
     gameStatus: 'https://gamestatus.beos.network',
-    segmentApiKey: 'kwLsTv7mc5W7mFEEr3XsuPhzuuCjWzBE',
-    mixpanelToken: '357ed2a145f08d43cbd27574a3e883e5'
+    segmentApiKey: 'kwLsTv7mc5W7mFEEr3XsuPhzuuCjWzBE'
   }
 };
 /* harmony default export */ __webpack_exports__["default"] = ( false ? undefined : CONFIG.development);
