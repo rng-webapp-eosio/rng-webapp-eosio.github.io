@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="25" viewBox="0 0 26 25">
+    <defs>
+        <ellipse id="a" cx="11.375" cy="10.938" rx="11.375" ry="10.938"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <rect width="26" height="25" fill="#31343A" rx="2"/>
+        <g transform="translate(1.625 1.563)">
+            <use fill="#2A2B31" style="mix-blend-mode:soft-light" xlink:href="#a"/>
+            <ellipse fill="#2A2B31" cx="11.375" cy="10.938" stroke="#D91932" stroke-linejoin="square" rx="10.875" ry="10.438"/>
+        </g>
+    </g>
+</svg>

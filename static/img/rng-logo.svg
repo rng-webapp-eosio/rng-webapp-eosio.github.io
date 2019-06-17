@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="77" viewBox="0 0 154 77">
+    <defs>
+        <path id="b" d="M18.977 32.583L1.24 16.292h12.652l17.735 16.291H18.977zM8.434 13.417H0V5.75h29.52v18.417L21.085 16.5v-3.083H8.435zm0 19.166H0V19.167l8.434 7.666v5.75zm38.055-6.958l-8.434 6.958v-17.25L46.489 23v2.625zM38.055 11.5V0l29.52 26.833v11.5L38.055 11.5zm21.085 1.52l8.435-7.27V23l-8.435-7.667v-2.312zm29.267 11.897h8.788v-4.265l8.435-7.11v19.041H79.796l8.611-7.666zm-3.863 0l-8.434 7.666V5.75h29.52l-8.435 7.667h-12.65v11.5z"/>
+        <filter id="a" width="111.4%" height="131.3%" x="-5.7%" y="-15.7%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.862745098 0 0 0 0 0.68627451 0 0 0 0 0.447058824 0 0 0 1 0"/>
+        </filter>
+        <filter id="c" width="156.8%" height="256.5%" x="-28.4%" y="-78.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <use fill="#000" filter="url(#a)" transform="translate(24 19)" xlink:href="#b"/>
+        <path fill="#DCAF72" d="M18.977 32.583L1.24 16.292h12.652l17.735 16.291H18.977zM8.434 13.417H0V5.75h29.52v18.417L21.085 16.5v-3.083H8.435zm0 19.166H0V19.167l8.434 7.666v5.75zm38.055-6.958l-8.434 6.958v-17.25L46.489 23v2.625zM38.055 11.5V0l29.52 26.833v11.5L38.055 11.5zm21.085 1.52l8.435-7.27V23l-8.435-7.667v-2.312zm29.267 11.897h8.788v-4.265l8.435-7.11v19.041H79.796l8.611-7.666zm-3.863 0l-8.434 7.666V5.75h29.52l-8.435 7.667h-12.65v11.5z" filter="url(#c)" opacity=".651" transform="translate(24 19)"/>
+        <path fill="#F3F3F3" d="M42.977 51.583L25.24 35.292h12.652l17.735 16.291H42.977zM32.434 32.417H24V24.75h29.52v18.417L45.085 35.5v-3.083h-12.65zm0 19.166H24V38.167l8.434 7.666v5.75zm38.055-6.958l-8.434 6.958v-17.25L70.489 42v2.625zM62.055 30.5V19l29.52 26.833v11.5L62.055 30.5zm21.085 1.52l8.435-7.27V42l-8.435-7.667v-2.312zm29.267 11.897h8.788v-4.265l8.435-7.11v19.041h-25.834l8.611-7.666zm-3.863 0l-8.434 7.666V24.75h29.52l-8.435 7.667h-12.65v11.5z"/>
+    </g>
+</svg>
