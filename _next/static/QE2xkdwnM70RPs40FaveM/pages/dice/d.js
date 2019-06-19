@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{875:function(n,e,t){__NEXT_REGISTER_PAGE("/dice/d",function(){return n.exports=t(876),{page:n.exports.default}})},876:function(n,e,t){"use strict";t.r(e),t.d(e,"default",function(){return o});var r=t(0),c=t.n(r),u=t(191);function o(){return c.a.createElement(u.a,{src:"/dice/m/"})}}},[[875,1,0]]]);
