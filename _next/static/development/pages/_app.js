@@ -14272,7 +14272,7 @@ function unwrapListeners(arr) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var window = __webpack_require__(/*! global/window */ "../node_modules/global/window.js");
-var nodeCrypto = __webpack_require__(/*! crypto */ 5);
+var nodeCrypto = __webpack_require__(/*! crypto */ 2);
 
 function getRandomValues(buf) {
   if (window.crypto && window.crypto.getRandomValues) {
@@ -45623,7 +45623,7 @@ util.inherits = __webpack_require__(/*! inherits */ "../node_modules/inherits/in
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(/*! util */ 6);
+var debugUtil = __webpack_require__(/*! util */ 3);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -47512,7 +47512,7 @@ Writable.prototype._destroy = function (err, cb) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Buffer = __webpack_require__(/*! safe-buffer */ "../node_modules/safe-buffer/index.js").Buffer;
-var util = __webpack_require__(/*! util */ 7);
+var util = __webpack_require__(/*! util */ 4);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -52763,7 +52763,7 @@ __webpack_require__.r(__webpack_exports__);
 // Networks are used to reference certain blockchains.
 // They let you get accounts and help you build signature providers.
 var CONFIG = {
-  production: {
+  eosio: {
     app: {
       name: 'rng.casino',
       key: 'key'
@@ -52784,7 +52784,28 @@ var CONFIG = {
     gameStatus: 'https://gamestatus.rng.casino',
     segmentApiKey: 'g9PC1LGDDrb3uHP79yBc2kTpnYKATUYS'
   },
-  development: {
+  beos: {
+    app: {
+      name: 'rng.casino-stag',
+      key: 'key'
+    },
+    network: {
+      blockchain: 'eos',
+      protocol: 'https',
+      host: 'chain.beos.network',
+      port: 443,
+      chainId: 'a578eed19b3745a4e0e3a56a27f6323d3a40f6544af3368f5ff7c69dbf8fdbe7'
+    },
+    contract: {
+      dice: 'rngdicebet11',
+      baccarat: 'rngbaccarat1',
+      pk10: 'rnglotpkten1',
+      'pk-10': 'rnglotpkten1'
+    },
+    gameStatus: 'https://gamestatus.beos.network',
+    segmentApiKey: 'kwLsTv7mc5W7mFEEr3XsuPhzuuCjWzBE'
+  },
+  k7: {
     app: {
       name: 'rng.casino-stag',
       key: 'key'
@@ -52806,7 +52827,24 @@ var CONFIG = {
     segmentApiKey: 'kwLsTv7mc5W7mFEEr3XsuPhzuuCjWzBE'
   }
 };
-/* harmony default export */ __webpack_exports__["default"] = ( false ? undefined : CONFIG.development);
+/* harmony default export */ __webpack_exports__["default"] = ((function () {
+  var env = "development";
+
+  switch (env) {
+    case 'production':
+    case 'eosio':
+      return CONFIG.eosio;
+
+    case '7k':
+    case 'k7':
+      return CONFIG.k7;
+
+    case 'development':
+    case 'beos':
+    default:
+      return CONFIG.beos;
+  }
+})());
 
 /***/ }),
 
@@ -56235,7 +56273,7 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ 5:
+/***/ 2:
 /*!************************!*\
   !*** crypto (ignored) ***!
   \************************/
@@ -56246,7 +56284,7 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/
@@ -56257,7 +56295,7 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ 7:
+/***/ 4:
 /*!**********************!*\
   !*** util (ignored) ***!
   \**********************/

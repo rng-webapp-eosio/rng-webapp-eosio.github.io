@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[14],{884:function(n,t,e){__NEXT_REGISTER_PAGE("/pk10/d",function(){return n.exports=e(885),{page:n.exports.default}})},885:function(n,t,e){"use strict";e.r(t),e.d(t,"default",function(){return c});var r=e(0),u=e.n(r),o=e(191);function c(){return u.a.createElement(o.a,{src:"/pk10/m/"})}}},[[884,1,0]]]);
